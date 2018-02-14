@@ -876,4 +876,23 @@ config SND_SOC_MSM_HDMI_CODEC_RX
 config SND_SOC_MSM_HDMI_DBA_CODEC_RX
 	bool "HDMI DBA Audio Playback"
 	depends on MSM_DBA
+
+config SND_SOC_TFA9872
+	tristate "Support TFA9872"
+	default n
+	help
+	TFA9872 driver
+
+config SND_SOC_TFA9896
+	tristate "Support TFA9896"
+	default n
+	help
+	TFA9896 driver
+
+config SOUND_CONTROL_HAX_3_GPL
+	tristate "new wcd93xx sound control hax"
+	default y
+	help
+	  FauxSound WCD93xx chipset sound control hacks 3.0 for deeper hax
+
 endmenu
