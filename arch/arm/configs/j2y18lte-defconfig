@@ -1966,6 +1966,7 @@ CONFIG_I2C_GPIO=y
 # CONFIG_I2C_XILINX is not set
 # CONFIG_I2C_MSM_QUP is not set
 CONFIG_I2C_MSM_V2=y
+CONFIG_SLIMBUS_MSM_CTRL=y
 
 #
 # External I2C/SMBus adapter drivers
