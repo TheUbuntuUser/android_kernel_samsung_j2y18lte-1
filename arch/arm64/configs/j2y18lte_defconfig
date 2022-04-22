@@ -6,7 +6,7 @@
 #
 # General setup
 #
-CONFIG_LOCALVERSION="PsychicGirl"
+CONFIG_LOCALVERSION="-SIMPLE-KERNEL_V1.0"
 CONFIG_AUDIT=y
 
 #
