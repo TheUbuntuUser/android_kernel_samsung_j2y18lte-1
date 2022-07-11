@@ -6,7 +6,7 @@
 #
 # General setup
 #
-CONFIG_LOCALVERSION="-SIMPLE-KERNEL_V1.0"
+CONFIG_LOCALVERSION="-Zeus_R1.0_Q"
 CONFIG_AUDIT=y
 
 #
@@ -1641,7 +1641,7 @@ CONFIG_SW_SYNC_USER=y
 CONFIG_ONESHOT_SYNC=y
 CONFIG_ION=y
 CONFIG_ION_MSM=y
-
+# CONFIG_VNSWAP is not set
 #
 # Qualcomm MSM specific device drivers
 #
